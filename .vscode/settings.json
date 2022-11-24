@@ -1,0 +1,139 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "workbench.editor.enablePreview": false,
+  "workbench.list.openMode": "singleClick",
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+  "[html]": {
+    "editor.fontLigatures": false,
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "vscode-edge-devtools.webhint": false,
+  "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+  "editor.guides.bracketPairs": true,
+  "debug.toolBarLocation": "docked",
+  "prettier.singleQuote": true,
+  "cSpell.words": [
+    "appspot",
+    "birthdate",
+    "burpees",
+    "devkit",
+    "firebaseapp",
+    "Firestore",
+    "jasminewd",
+    "ngrx",
+    "Serializability",
+    "sidenav",
+    "signup"
+  ],
+  "angular.enable-strict-mode-prompt": false,
+  "auto-close-tag.disableOnLanguage": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+  ],
+  "todo-tree.highlights.defaultHighlight": {
+    "icon": "alert",
+    "type": "text-and-comment",
+    "foreground": "#000000",
+    "background": "#FFFFFF",
+    "opacity": 50,
+    "iconColour": "#0000FF",
+    "gutterIcon": true
+  },
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "icon": "check",
+      "foreground": "#000000",
+      "background": "#FFFF00",
+      "iconColour": "#FFFF00"
+    },
+    "NOTE": {
+      "icon": "note",
+      "foreground": "#FFFFFF",
+      "background": "#6495ED",
+      "iconColour": "#6495ED"
+    },
+    "USEFUL": {
+      "icon": "note",
+      "foreground": "#000000",
+      "background": "#66CDAA",
+      "iconColour": "#66CDAA"
+    },
+    "COMMENT": {
+      "icon": "note",
+      "foreground": "#FFFFFF",
+      "background": "#808080",
+      "iconColour": "#808080"
+    },
+    "LEARN": {
+      "icon": "note",
+      "foreground": "#FFFFFF",
+      "background": "#FF69B4",
+      "iconColour": "#FF69B4"
+    },
+    "FIXME": {
+      "foreground": "#DC143C",
+      "background": "#DEB887",
+      "iconColour": "#DEB887"
+    },
+    "BUG": {
+      "foreground": "#FFFFFF",
+      "background": "#DC143C",
+      "iconColour": "#DC143C"
+    },
+    "SEE NOTES": {
+      "icon": "check",
+      "foreground": "#FFFFFF",
+      "background": "#008080",
+      "iconColour": "#008080"
+    },
+    "POST": {
+      "icon": "check",
+      "foreground": "#FFFFFF",
+      "background": "#008000",
+      "iconColour": "#008000"
+    },
+    "[ ]": {
+      "icon": "check",
+      "foreground": "#000000",
+      "background": "#FFFFFF",
+      "iconColour": "#FFFF00"
+    },
+    "[x]": {
+      "icon": "check",
+      "foreground": "#FFFFFF",
+      "background": "#008000",
+      "iconColour": "#008000"
+    }
+  },
+  "todo-tree.general.tags": [
+    "BUG",
+    "SEE NOTES",
+    "HACK",
+    "FIXME",
+    "RECHECK",
+    "INCOMPLETE",
+    "TODO",
+    "NOTE",
+    "POST",
+    "USEFUL",
+    "LEARN",
+    "COMMENT",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS).*(\\n\\s*//\\s{2,}.*)*",
+  "markdown.validate.enabled": true,
+  "editor.parameterHints.enabled": false
+}
